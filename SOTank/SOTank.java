@@ -38,7 +38,7 @@ public class SOTank extends Bot {
     // We saw another bot -> fire!
     @Override
     public void onScannedBot(ScannedBotEvent e) {
-        fire(8);
+        fire(5);
     }
 
     // We were hit by a bullet -> turn perpendicular to the bullet
