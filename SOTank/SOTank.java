@@ -32,7 +32,7 @@ public class SOTank extends Bot {
             back(100);
             turnGunRight(360);
 
-            
+
 
         }
     }

@@ -1,2 +1,2 @@
 #!/bin/sh
-java -cp ../lib/* {{YourBotName}}.java 
+java -cp ../lib/* SOTank.java
