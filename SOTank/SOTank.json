@@ -1,0 +1,16 @@
+{
+  "name": "SOTank",
+  "version": "1.0",
+  "authors": [
+    "Munish",
+    "Silent Operator"
+  ],
+  "description": "Silent Operator",
+  "homepage": "",
+  "countryCodes": [
+    "uk",
+    "ind"
+  ],
+  "platform": "JVM",
+  "programmingLang": "Java 11"
+}
