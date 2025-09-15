@@ -1,6 +1,15 @@
 import dev.robocode.tankroyale.botapi.*;
 import dev.robocode.tankroyale.botapi.events.*;
 
+// ------------------------------------------------------------------
+// SOTank
+// ------------------------------------------------------------------
+// A sample bot original made for Robocode by Mathew Nelson.
+// Ported to Robocode Tank Royale by Flemming N. Larsen.
+//
+// Probably the first bot you will learn about.
+// Moves in a seesaw motion, and spins the gun around at each end.
+// ------------------------------------------------------------------
 public class SOTank extends Bot {
 
     // The main method starts our bot
@@ -10,7 +19,7 @@ public class SOTank extends Bot {
 
     // Constructor, which loads the bot config file
     SOTank() {
-        super(SOTank.fromFile("SOTank.json"));
+        super(BotInfo.fromFile("SOTank.json"));
     }
 
     // Called when a new round is started -> initialize and do some movement
@@ -22,13 +31,16 @@ public class SOTank extends Bot {
             turnGunRight(360);
             back(100);
             turnGunRight(360);
+
+            
+
         }
     }
 
     // We saw another bot -> fire!
     @Override
     public void onScannedBot(ScannedBotEvent e) {
-        fire(0);
+        fire(1);
     }
 
     // We were hit by a bullet -> turn perpendicular to the bullet
