@@ -27,21 +27,22 @@ public class SOTank extends Bot {
     public void run() {
         // Repeat while the bot is running
         while (isRunning()) {
-            forward(100);
+            forward(200);
             handleRadar();
-            turnGunRight(180);
+            turnGunRight(270);
             pickTargetEnemy();
             handleGun();
-            back(100);
-            turnGunRight(180);
+            back(200);
+            turnGunRight(270);
             handleMovement();
+
         }
     }
 
     // We saw another bot -> fire!
     @Override
     public void onScannedBot(ScannedBotEvent e) {
-        fire(3);
+        fire(5);
     }
 
     // We were hit by a bullet -> turn perpendicular to the bullet
