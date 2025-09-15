@@ -27,14 +27,11 @@ public class SOTank extends Bot {
     public void run() {
         // Repeat while the bot is running
         while (isRunning()) {
-            forward(200);
-            handleRadar();
-            turnGunRight(270);
-            pickTargetEnemy();
-            handleGun();
-            back(200);
-            turnGunRight(270);
-            handleMovement();
+            forward(100);
+            turnGunRight(360);
+            back(100);
+            turnGunRight(360);
+
 
         }
     }
