@@ -1,1 +1,1 @@
-java -cp ../lib/* SOTank SOTank.java
+java -cp ../lib/* SOTank.java

@@ -1,8 +1,6 @@
 import dev.robocode.tankroyale.botapi.*;
 import dev.robocode.tankroyale.botapi.events.*;
 
-import static javax.swing.Autoscroller.isRunning;
-
 public class SOTank extends Bot {
 
     // The main method starts our bot

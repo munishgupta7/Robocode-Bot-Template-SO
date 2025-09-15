@@ -1,15 +1,15 @@
 {
-  "name": "SOTank",
+  "name": "My First Bot",
   "version": "1.0",
   "authors": [
-    "Munish",
-    "Silent Operator"
+    "Mathew Nelson",
+    "Flemming N. Larsen"
   ],
-  "description": "Silent Operator",
+  "description": "A sample bot that is probably the first bot you will learn about.",
   "homepage": "",
   "countryCodes": [
-    "uk",
-    "ind"
+    "us",
+    "dk"
   ],
   "platform": "JVM",
   "programmingLang": "Java 11"
